@@ -11,6 +11,11 @@ public class Oper3_1 {
       System.out.println("pre x="+x+", y="+y);
       
       System.out.println(" ");
+      
+      int a=5, b=0;
+      b=++a + ++a + ++b;
+      System.out.println(a + " " + b);
+      
       System.out.println(10%6);
       System.out.println(10%4);
       System.out.println(0.0/0);
