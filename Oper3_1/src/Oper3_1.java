@@ -12,6 +12,10 @@ public class Oper3_1 {
       
       System.out.println(" ");
       
+      int w=232;
+      System.out.println(Integer.toBinaryString(w));
+      System.out.println(Integer.toBinaryString(~w));
+      
       int a=5, b=0;
       b=++a + ++a + ++b;
       System.out.println(a + " " + b);
