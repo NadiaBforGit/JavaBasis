@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 public class Arr5_4 {
 
@@ -11,6 +12,16 @@ public class Arr5_4 {
          System.out.println(v+" ");
       }
 
+      // multidimentional array
+      int[] [] arr1 = new int [2] [4];
+      System.out.println(Arrays.deepToString(arr1));
+      
+      int[] [] arr2 = new int [] [] {
+            {1,2,3,4},
+            {5,6,7}
+      };
+      System.out.println(Arrays.deepToString(arr2));
+      
    }
 
 }
